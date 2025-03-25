@@ -1,0 +1,64 @@
+﻿@using ETicaretData.ViewModels
+@model ShippingDetails
+@{
+    ViewData["Title"] = "Sipariş Tamamla";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm rounded-3">
+                <div class="card-header bg-white py-3">
+                    <h4 class="mb-0">Sipariş Bilgileri</h4>
+                </div>
+                <div class="card-body p-4">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                    <form asp-action="CheckOut" method="post">
+                        <div class="mb-4">
+                            <label asp-for="UserName" class="form-label">Kullanıcı Adı</label>
+                            @if (User.Identity?.Name != null)
+                            {
+                                <input asp-for="UserName" class="form-control" value="@User.Identity.Name" />
+                            }
+                            else
+                            {
+                                <input asp-for="UserName" class="form-control" placeholder="Ad Soyad giriniz" />
+                            }
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="AdressTitle" class="form-label">Adres Başlığı</label>
+                            <input asp-for="AdressTitle" class="form-control" placeholder="Örn: Ev, İş" />
+                            <span asp-validation-for="AdressTitle" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Adress" class="form-label">Adres</label>
+                            <textarea asp-for="Adress" class="form-control" rows="3" placeholder="Açık adresinizi giriniz"></textarea>
+                            <span asp-validation-for="Adress" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="City" class="form-label">Şehir</label>
+                            <input asp-for="City" class="form-control" placeholder="Şehir seçiniz" />
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary py-2">Siparişi Tamamla</button>
+                            <a asp-action="Index" asp-controller="Card" class="btn btn-light">Sepete Dön</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

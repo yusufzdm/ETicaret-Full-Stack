@@ -1,0 +1,28 @@
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\bin\Debug\net6.0\ETicaretData.deps.json
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\bin\Debug\net6.0\ETicaretData.runtimeconfig.json
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\bin\Debug\net6.0\ETicaretData.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\bin\Debug\net6.0\ETicaretData.pdb
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.csproj.AssemblyReference.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.AssemblyInfoInputs.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.AssemblyInfo.cs
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.csproj.CoreCompileInputs.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\obj\Debug\net6.0\refint\ETicaretData.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.pdb
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.genruntimeconfig.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretData\obj\Debug\net6.0\ref\ETicaretData.dll
+C:\ETicaret\ETicaretData\bin\Debug\net6.0\ETicaretData.deps.json
+C:\ETicaret\ETicaretData\bin\Debug\net6.0\ETicaretData.runtimeconfig.json
+C:\ETicaret\ETicaretData\bin\Debug\net6.0\ETicaretData.dll
+C:\ETicaret\ETicaretData\bin\Debug\net6.0\ETicaretData.pdb
+C:\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.csproj.AssemblyReference.cache
+C:\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.GeneratedMSBuildEditorConfig.editorconfig
+C:\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.AssemblyInfoInputs.cache
+C:\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.AssemblyInfo.cs
+C:\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.csproj.CoreCompileInputs.cache
+C:\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.dll
+C:\ETicaret\ETicaretData\obj\Debug\net6.0\refint\ETicaretData.dll
+C:\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.pdb
+C:\ETicaret\ETicaretData\obj\Debug\net6.0\ETicaretData.genruntimeconfig.cache
+C:\ETicaret\ETicaretData\obj\Debug\net6.0\ref\ETicaretData.dll

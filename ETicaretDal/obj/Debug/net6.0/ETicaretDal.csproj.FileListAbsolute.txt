@@ -1,0 +1,38 @@
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretDal.deps.json
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretDal.runtimeconfig.json
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretDal.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretDal.pdb
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretBusisness.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretData.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretBusisness.pdb
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretData.pdb
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.csproj.AssemblyReference.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.AssemblyInfoInputs.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.AssemblyInfo.cs
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.csproj.CoreCompileInputs.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaret.2E203769.Up2Date
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\obj\Debug\net6.0\refint\ETicaretDal.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.pdb
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.genruntimeconfig.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretDal\obj\Debug\net6.0\ref\ETicaretDal.dll
+C:\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretDal.deps.json
+C:\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretDal.runtimeconfig.json
+C:\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretDal.dll
+C:\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretDal.pdb
+C:\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretBusisness.dll
+C:\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretData.dll
+C:\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretBusisness.pdb
+C:\ETicaret\ETicaretDal\bin\Debug\net6.0\ETicaretData.pdb
+C:\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.csproj.AssemblyReference.cache
+C:\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.GeneratedMSBuildEditorConfig.editorconfig
+C:\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.AssemblyInfoInputs.cache
+C:\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.AssemblyInfo.cs
+C:\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.csproj.CoreCompileInputs.cache
+C:\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaret.2E203769.Up2Date
+C:\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.dll
+C:\ETicaret\ETicaretDal\obj\Debug\net6.0\refint\ETicaretDal.dll
+C:\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.pdb
+C:\ETicaret\ETicaretDal\obj\Debug\net6.0\ETicaretDal.genruntimeconfig.cache
+C:\ETicaret\ETicaretDal\obj\Debug\net6.0\ref\ETicaretDal.dll

@@ -1,0 +1,30 @@
+﻿@using ETicaretData.Entities
+@model IEnumerable<Product>
+@foreach (var x in Model)
+{
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-img-container" style="height: 180px; overflow: hidden;">
+                <img src="@x.Image" class="card-img-top w-100 h-100" style="object-fit: contain;" alt="@x.Name" />
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a href="/Home/Details/@x.Id" style="text-decoration: none; color: inherit;">@x.Name</a>
+                </h5>
+            </div>
+            <div class="card-footer">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="text-primary fw-bold">@x.Price.ToString("c")</span>
+                    <div>
+                        <a href="#" onclick="return addToCart(@x.Id)" class="btn btn-success btn-sm me-1">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </a>
+                        <a class="btn btn-primary btn-sm" href="/Home/Details/@x.Id">
+                            Detay
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

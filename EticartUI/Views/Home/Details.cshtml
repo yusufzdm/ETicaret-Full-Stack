@@ -1,0 +1,143 @@
+﻿@using ETicaretData.Entities
+@model Product
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="product-image-container">
+                <img src="@Model.Image" alt="@Model.Name" class="img-fluid rounded shadow product-image">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Ana Sayfa</a></li>
+                    <li class="breadcrumb-item"><a href="/Home/List/@Model.CategoryId">@Model.Category?.Name</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">@Model.Name</li>
+                </ol>
+            </nav>
+            <h1 class="display-5 mb-4">@Model.Name</h1>
+            <div class="mb-4">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="text-warning me-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <span class="text-muted">(60 değerlendirme)</span>
+                </div>
+                <div class="product-price mb-4">
+                    <span class="fs-2 fw-bold text-primary">@Model.Price.ToString("c")</span>
+                </div>
+                <div class="product-stock mb-4">
+                    @if (Model.Stock > 0)
+                    {
+                        <span class="badge bg-success"><i class="fas fa-check me-1"></i>Stokta @Model.Stock adet var</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger"><i class="fas fa-times me-1"></i>Stokta yok</span>
+                    }
+                </div>
+                <div class="product-description mb-4">
+                    <h5>Ürün Açıklaması</h5>
+                    <p class="text-muted">@Model.Description</p>
+                </div>
+                <div class="d-grid gap-2">
+                    <button onclick="return addToCart(@Model.Id)" class="btn btn-primary btn-lg">
+                        <i class="fa-solid fa-cart-plus me-2"></i>Sepete Ekle
+                    </button>
+                </div>
+            </div>
+            <div class="product-features mt-4">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <div class="feature-item p-3 border rounded text-center">
+                            <i class="fas fa-truck mb-2 text-primary"></i>
+                            <h6 class="mb-0">Ücretsiz Kargo</h6>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="feature-item p-3 border rounded text-center">
+                            <i class="fas fa-undo mb-2 text-primary"></i>
+                            <h6 class="mb-0">30 Gün İade</h6>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="feature-item p-3 border rounded text-center">
+                            <i class="fas fa-shield-alt mb-2 text-primary"></i>
+                            <h6 class="mb-0">Güvenli Ödeme</h6>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="feature-item p-3 border rounded text-center">
+                            <i class="fas fa-headset mb-2 text-primary"></i>
+                            <h6 class="mb-0">7/24 Destek</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .product-image-container {
+        background: #fff;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    }
+    
+    .product-image {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        max-height: 500px;
+    }
+    
+    .feature-item {
+        transition: all 0.3s ease;
+    }
+    
+    .feature-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    }
+    
+    .feature-item i {
+        font-size: 1.5rem;
+        display: block;
+    }
+    
+    .product-price {
+        color: var(--bs-primary);
+    }
+    
+    .breadcrumb {
+        background: transparent;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .breadcrumb-item a {
+        color: var(--bs-primary);
+        text-decoration: none;
+    }
+    
+    .breadcrumb-item.active {
+        color: var(--bs-gray);
+    }
+    
+    .btn-primary {
+        padding: 1rem 2rem;
+    }
+</style>
+
+

@@ -1,0 +1,536 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ETicaret\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|c:\\eticaret\\eticaretdata\\context\\eticaretcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|solutionrelative:eticaretdata\\context\\eticaretcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\views\\card\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\views\\card\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\views\\card\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\views\\card\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6937206E-69A9-4C74-883A-79E82EB67130}|ETicaretDal\\ETicaretDal.csproj|c:\\eticaret\\eticaretdal\\concreate\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6937206E-69A9-4C74-883A-79E82EB67130}|ETicaretDal\\ETicaretDal.csproj|solutionrelative:eticaretdal\\concreate\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6937206E-69A9-4C74-883A-79E82EB67130}|ETicaretDal\\ETicaretDal.csproj|c:\\eticaret\\eticaretdal\\concreate\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6937206E-69A9-4C74-883A-79E82EB67130}|ETicaretDal\\ETicaretDal.csproj|solutionrelative:eticaretdal\\concreate\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6937206E-69A9-4C74-883A-79E82EB67130}|ETicaretDal\\ETicaretDal.csproj|c:\\eticaret\\eticaretdal\\concreate\\orderlinedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6937206E-69A9-4C74-883A-79E82EB67130}|ETicaretDal\\ETicaretDal.csproj|solutionrelative:eticaretdal\\concreate\\orderlinedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6937206E-69A9-4C74-883A-79E82EB67130}|ETicaretDal\\ETicaretDal.csproj|c:\\eticaret\\eticaretdal\\abstract\\iorderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6937206E-69A9-4C74-883A-79E82EB67130}|ETicaretDal\\ETicaretDal.csproj|solutionrelative:eticaretdal\\abstract\\iorderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C28996-7C26-499F-9FC9-47824EF5B998}|ETicaretBusisness\\ETicaretBusisness.csproj|c:\\eticaret\\eticaretbusisness\\concreate\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C28996-7C26-499F-9FC9-47824EF5B998}|ETicaretBusisness\\ETicaretBusisness.csproj|solutionrelative:eticaretbusisness\\concreate\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6937206E-69A9-4C74-883A-79E82EB67130}|ETicaretDal\\ETicaretDal.csproj|c:\\eticaret\\eticaretdal\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6937206E-69A9-4C74-883A-79E82EB67130}|ETicaretDal\\ETicaretDal.csproj|solutionrelative:eticaretdal\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|c:\\eticaret\\eticaretdata\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|solutionrelative:eticaretdata\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|c:\\eticaret\\eticaretdata\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|solutionrelative:eticaretdata\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|c:\\eticaret\\eticaretdata\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|solutionrelative:eticaretdata\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|c:\\eticaret\\eticaretdata\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|solutionrelative:eticaretdata\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|c:\\eticaret\\eticaretdata\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|solutionrelative:eticaretdata\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|c:\\eticaret\\eticaretdata\\viewmodels\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|solutionrelative:eticaretdata\\viewmodels\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|c:\\eticaret\\eticaretdata\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A66DAD-6EFC-4585-98CB-157BA931D7DF}|ETicaretData\\ETicaretData.csproj|solutionrelative:eticaretdata\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|c:\\eticaret\\eticartui\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D91A80-B5B9-46DF-BA1B-C41DAC721D32}|EticartUI\\EticartUI.csproj|solutionrelative:eticartui\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EticartUI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EticartUI\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:44:25.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EticartUI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EticartUI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:44:18.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Views\\Card\\Index.cshtml",
+              "RelativeDocumentMoniker": "EticartUI\\Views\\Card\\Index.cshtml",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Views\\Card\\Index.cshtml",
+              "RelativeToolTip": "EticartUI\\Views\\Card\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T20:43:40.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "EticartUI\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "EticartUI\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T20:41:34.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "EticartUI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "EticartUI\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:37:42.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductDal.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretDal\\Concreate\\ProductDal.cs",
+              "RelativeDocumentMoniker": "ETicaretDal\\Concreate\\ProductDal.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretDal\\Concreate\\ProductDal.cs",
+              "RelativeToolTip": "ETicaretDal\\Concreate\\ProductDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:33:40.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "EticartUI\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "EticartUI\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:35:25.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ETicaretContext.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretData\\Context\\ETicaretContext.cs",
+              "RelativeDocumentMoniker": "ETicaretData\\Context\\ETicaretContext.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretData\\Context\\ETicaretContext.cs",
+              "RelativeToolTip": "ETicaretData\\Context\\ETicaretContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:23:13.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "EticartUI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "EticartUI\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:44:21.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EticartUI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EticartUI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:35:31.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EticartUI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EticartUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAAAMgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T12:03:12.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryDal.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretDal\\Concreate\\CategoryDal.cs",
+              "RelativeDocumentMoniker": "ETicaretDal\\Concreate\\CategoryDal.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretDal\\Concreate\\CategoryDal.cs",
+              "RelativeToolTip": "ETicaretDal\\Concreate\\CategoryDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:23:19.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderLineDal.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretDal\\Concreate\\OrderLineDal.cs",
+              "RelativeDocumentMoniker": "ETicaretDal\\Concreate\\OrderLineDal.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretDal\\Concreate\\OrderLineDal.cs",
+              "RelativeToolTip": "ETicaretDal\\Concreate\\OrderLineDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:30:32.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretBusisness\\Concreate\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "ETicaretBusisness\\Concreate\\GenericRepository.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretBusisness\\Concreate\\GenericRepository.cs",
+              "RelativeToolTip": "ETicaretBusisness\\Concreate\\GenericRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:27:53.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProductDal.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretDal\\Abstract\\IProductDal.cs",
+              "RelativeDocumentMoniker": "ETicaretDal\\Abstract\\IProductDal.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretDal\\Abstract\\IProductDal.cs",
+              "RelativeToolTip": "ETicaretDal\\Abstract\\IProductDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:22:55.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IOrderDal.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretDal\\Abstract\\IOrderDal.cs",
+              "RelativeDocumentMoniker": "ETicaretDal\\Abstract\\IOrderDal.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretDal\\Abstract\\IOrderDal.cs",
+              "RelativeToolTip": "ETicaretDal\\Abstract\\IOrderDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:22:53.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CardController.cs",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Controllers\\CardController.cs",
+              "RelativeDocumentMoniker": "EticartUI\\Controllers\\CardController.cs",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Controllers\\CardController.cs",
+              "RelativeToolTip": "EticartUI\\Controllers\\CardController.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAAwEcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:47:42.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CheckOut.cshtml",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Views\\Card\\CheckOut.cshtml",
+              "RelativeDocumentMoniker": "EticartUI\\Views\\Card\\CheckOut.cshtml",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Views\\Card\\CheckOut.cshtml",
+              "RelativeToolTip": "EticartUI\\Views\\Card\\CheckOut.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T11:50:58.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretData\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ETicaretData\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretData\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ETicaretData\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:21:26.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretData\\Validators\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "ETicaretData\\Validators\\ProductValidator.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretData\\Validators\\ProductValidator.cs",
+              "RelativeToolTip": "ETicaretData\\Validators\\ProductValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:19:16.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EticartUI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EticartUI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T19:39:56.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "EticartUI\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "EticartUI\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T19:39:43.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAFQTAAAAAAAAAAAgwGYTAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-23T19:39:12.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretData\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "ETicaretData\\Entities\\Category.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretData\\Entities\\Category.cs",
+              "RelativeToolTip": "ETicaretData\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T06:28:54.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretData\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "ETicaretData\\Entities\\Product.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretData\\Entities\\Product.cs",
+              "RelativeToolTip": "ETicaretData\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T06:28:41.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RoleViewModel.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretData\\ViewModels\\RoleViewModel.cs",
+              "RelativeDocumentMoniker": "ETicaretData\\ViewModels\\RoleViewModel.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretData\\ViewModels\\RoleViewModel.cs",
+              "RelativeToolTip": "ETicaretData\\ViewModels\\RoleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:53:01.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretData\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "ETicaretData\\Identity\\AppUser.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretData\\Identity\\AppUser.cs",
+              "RelativeToolTip": "ETicaretData\\Identity\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:23:09.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\ETicaret\\ETicaretData\\Identity\\AppRole.cs",
+              "RelativeDocumentMoniker": "ETicaretData\\Identity\\AppRole.cs",
+              "ToolTip": "C:\\ETicaret\\ETicaretData\\Identity\\AppRole.cs",
+              "RelativeToolTip": "ETicaretData\\Identity\\AppRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:23:01.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Program.cs",
+              "RelativeDocumentMoniker": "EticartUI\\Program.cs",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Program.cs",
+              "RelativeToolTip": "EticartUI\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAIBJwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:55:08.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "EticartUI\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "EticartUI\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T11:22:24.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "EticartUI\\Views\\Order\\Details.cshtml",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "EticartUI\\Views\\Order\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T09:50:41.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\ETicaret\\EticartUI\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "EticartUI\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\ETicaret\\EticartUI\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "EticartUI\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAAwNEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T09:49:06.909Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

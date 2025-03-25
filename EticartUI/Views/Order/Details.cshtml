@@ -1,0 +1,33 @@
+﻿@model ETicaretData.Entities.Order
+
+<h1>Order Details</h1>
+
+<p><strong>Order Number:</strong> @Model.OrderNumber</p>
+<p><strong>Order Date:</strong> @Model.OrderDate.ToShortDateString()</p>
+<p><strong>Total:</strong> @Model.Total ₺</p>
+<p><strong>Status:</strong> @Model.orderState</p>
+
+<h3>Products in Order</h3>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price (₺)</th>
+            <th>Total (₺)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderLines)
+        {
+            <tr>
+                <td>@item.Product.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.Price.ToString("C")</td>
+                <td>@(item.Quantity * item.Price)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

@@ -1,0 +1,34 @@
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretBusisness.deps.json
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretBusisness.runtimeconfig.json
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretBusisness.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretBusisness.pdb
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretData.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretData.pdb
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.csproj.AssemblyReference.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.AssemblyInfoInputs.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.AssemblyInfo.cs
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.csproj.CoreCompileInputs.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaret.4196DE4D.Up2Date
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\obj\Debug\net6.0\refint\ETicaretBusisness.dll
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.pdb
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.genruntimeconfig.cache
+C:\Users\mehme\Desktop\Yeni klasör (2)\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ref\ETicaretBusisness.dll
+C:\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretBusisness.deps.json
+C:\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretBusisness.runtimeconfig.json
+C:\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretBusisness.dll
+C:\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretBusisness.pdb
+C:\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretData.dll
+C:\ETicaret\ETicaretBusisness\bin\Debug\net6.0\ETicaretData.pdb
+C:\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.csproj.AssemblyReference.cache
+C:\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.GeneratedMSBuildEditorConfig.editorconfig
+C:\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.AssemblyInfoInputs.cache
+C:\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.AssemblyInfo.cs
+C:\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.csproj.CoreCompileInputs.cache
+C:\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaret.4196DE4D.Up2Date
+C:\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.dll
+C:\ETicaret\ETicaretBusisness\obj\Debug\net6.0\refint\ETicaretBusisness.dll
+C:\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.pdb
+C:\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ETicaretBusisness.genruntimeconfig.cache
+C:\ETicaret\ETicaretBusisness\obj\Debug\net6.0\ref\ETicaretBusisness.dll

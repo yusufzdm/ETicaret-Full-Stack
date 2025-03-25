@@ -1,0 +1,67 @@
+﻿@model ETicaretData.Entities.Order
+
+@{
+    ViewData["Title"] = "Edit Order";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit Order</h1>
+<hr />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Id)
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.OrderNumber, new { @class = "control-label" })
+            @Html.TextBoxFor(m => m.OrderNumber, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.OrderDate, new { @class = "control-label" })
+            @Html.TextBoxFor(m => m.OrderDate, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Total, new { @class = "control-label" })
+            @Html.TextBoxFor(m => m.Total, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.UserName, new { @class = "control-label" })
+            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.AdressTitle, new { @class = "control-label" })
+            @Html.TextBoxFor(m => m.AdressTitle, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Adress, new { @class = "control-label" })
+            @Html.TextBoxFor(m => m.Adress, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.City, new { @class = "control-label" })
+            @Html.TextBoxFor(m => m.City, new { @class = "form-control" })
+        </div>
+
+        <!-- Order State için tamamen ayrı ViewData key'i -->
+        <div class="form-group">
+            @Html.LabelFor(m => m.orderState, "Order State", new { @class = "control-label" })
+            @Html.DropDownListFor(m => m.orderState, (IEnumerable<SelectListItem>)ViewData["OrderStateSelectList"], new { @class = "form-control" })
+
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </div>
+}
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

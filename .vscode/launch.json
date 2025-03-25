@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch ETicaret Web",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "dotnet",
+            "runtimeArgs": [
+                "run",
+                "--project",
+                "${workspaceFolder}/EticartUI/EticartUI.csproj"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+} 

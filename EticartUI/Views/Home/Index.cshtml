@@ -1,0 +1,206 @@
+﻿@using ETicaretData.ViewModels
+@model ListViewModel
+@{
+    ViewData["Title"] = "Ana Sayfa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <style>
+        body.home-page {
+            padding-top: 0 !important;
+        }
+    </style>
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('body').addClass('home-page');
+            
+            // Carousel otomatik geçiş
+            $('.carousel').carousel({
+                interval: 5000
+            });
+            
+            // Smooth scroll
+            $('a[href^="#"]').on('click', function(e) {
+                e.preventDefault();
+                var target = $(this.hash);
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 70
+                }, 500);
+            });
+        });
+    </script>
+}
+
+<div class="hero-section">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg" class="d-block w-100" alt="Special Offers">
+                <div class="carousel-caption">
+                    <h1 class="display-4 fw-bold text-shadow">Özel İndirimler</h1>
+                    <p class="lead text-shadow">Sezon sonu ürünlerinde %50'ye varan indirimler!</p>
+                    <a href="#products" class="btn btn-primary btn-lg">Hemen Keşfet</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/cyber-monday-shopping-sales_23-2148688502.jpg" class="d-block w-100" alt="New Collection">
+                <div class="carousel-caption">
+                    <h1 class="display-4 fw-bold text-shadow">Yeni Koleksiyon</h1>
+                    <p class="lead text-shadow">En yeni ürünlerimizi keşfedin</p>
+                    <a href="#products" class="btn btn-primary btn-lg">Koleksiyonu Gör</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/front-view-cyber-monday-shopping-cart-with-bags-copy-space_23-2148657638.jpg" class="d-block w-100" alt="Free Shipping">
+                <div class="carousel-caption">
+                    <h1 class="display-4 fw-bold text-shadow">Ücretsiz Kargo</h1>
+                    <p class="lead text-shadow">250 TL üzeri alışverişlerde kargo bedava!</p>
+                    <a href="#products" class="btn btn-primary btn-lg">Alışverişe Başla</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Features Section -->
+    <div class="row my-5">
+        <div class="col-md-3">
+            <div class="feature text-center">
+                <i class="fas fa-truck fa-2x text-primary mb-3"></i>
+                <h5>Hızlı Teslimat</h5>
+                <p class="text-muted">24 saat içinde kargoya teslim</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="feature text-center">
+                <i class="fas fa-undo fa-2x text-primary mb-3"></i>
+                <h5>Kolay İade</h5>
+                <p class="text-muted">30 gün içinde ücretsiz iade</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="feature text-center">
+                <i class="fas fa-lock fa-2x text-primary mb-3"></i>
+                <h5>Güvenli Ödeme</h5>
+                <p class="text-muted">256-bit SSL güvenlik</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="feature text-center">
+                <i class="fas fa-headset fa-2x text-primary mb-3"></i>
+                <h5>7/24 Destek</h5>
+                <p class="text-muted">Her zaman yanınızdayız</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <div class="row mb-5" id="products">
+        <div class="col-md-3">
+            @Html.Partial("_GetCategoryList",Model.Categories)
+        </div>
+        <div class="col-md-9">
+            @if (Model.Products.Count == 0)
+            {
+                <div class="alert alert-danger" role="alert">
+                    <i class="fa-solid fa-circle-exclamation"></i> Bu kategoride bir ürün bulunamadı.
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info" role="alert">
+                    <i class="fa-solid fa-circle-exclamation"></i> <strong>@Model.Products.Count</strong> adet ürün bulundu.
+                </div>
+            }
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                @Html.Partial("_ProductList", Model.Products)
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hero-section {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        margin-bottom: 2rem;
+    }
+    .carousel-item {
+        height: 100vh;
+    }
+    .carousel-item img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        filter: brightness(0.7);
+    }
+    .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    .carousel-caption {
+        bottom: 50%;
+        transform: translateY(50%);
+        background: rgba(0,0,0,0.4);
+        padding: 2rem;
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+    }
+    .carousel-caption .btn {
+        text-shadow: none;
+        padding: 0.8rem 2rem;
+        font-size: 1.1rem;
+        border-radius: 50px;
+        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        border: none;
+        transition: all 0.3s ease;
+    }
+    .carousel-caption .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    .feature {
+        padding: 2rem;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        background: white;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    .feature:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+    .feature i {
+        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #products {
+        margin-bottom: 4rem;
+    }
+</style>
+
+

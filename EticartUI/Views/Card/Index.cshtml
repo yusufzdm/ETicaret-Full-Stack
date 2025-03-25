@@ -1,0 +1,255 @@
+﻿@using ETicaretData.ViewModels
+@using System.Globalization
+@model IEnumerable<CardItem>
+@{
+    ViewData["Title"] = "Sepetim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 px-4">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card shadow border-0 rounded-4 overflow-hidden">
+                        <div class="card-header border-0 bg-white p-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4 class="mb-0">
+                                    <i class="fas fa-shopping-cart text-primary me-2"></i>Alışveriş Sepetim
+                                </h4>
+                                <div class="d-flex align-items-center">
+                                    <div class="input-group input-group-sm me-3" style="width: 200px;">
+                                        <span class="input-group-text border-0 bg-light">Göster</span>
+                                        <select class="form-select border-0 bg-light" id="entriesSelect">
+                                            <option value="10">10</option>
+                                            <option value="25">25</option>
+                                            <option value="50">50</option>
+                                            <option value="100">100</option>
+                                        </select>
+                                        <span class="input-group-text border-0 bg-light">Ürün</span>
+                                    </div>
+                                    <div class="input-group input-group-sm" style="width: 250px;">
+                                        <span class="input-group-text border-0 bg-light">
+                                            <i class="fas fa-search text-muted"></i>
+                                        </span>
+                                        <input type="text" class="form-control border-0 bg-light" placeholder="Ürün ara...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-0">
+                            @if (Model == null || !Model.Any())
+                            {
+                                <div class="text-center py-5">
+                                    <i class="fas fa-shopping-basket text-muted" style="font-size: 4rem;"></i>
+                                    <h5 class="mt-3">Sepetiniz Boş</h5>
+                                    <p class="text-muted">Henüz sepetinize ürün eklemediniz.</p>
+                                    <a asp-action="List" asp-controller="Home" class="btn btn-primary rounded-pill px-4">
+                                        <i class="fas fa-arrow-left me-2"></i>Alışverişe Başla
+                                    </a>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="table-responsive">
+                                    <table class="table table-hover align-middle mb-0">
+                                        <thead class="bg-light">
+                                            <tr>
+                                                <th class="ps-4 py-3">
+                                                    <span class="d-flex align-items-center">
+                                                        Ürün
+                                                        <i class="fas fa-sort ms-2 text-muted"></i>
+                                                    </span>
+                                                </th>
+                                                <th class="py-3">
+                                                    <span class="d-flex align-items-center">
+                                                        Fiyat
+                                                        <i class="fas fa-sort ms-2 text-muted"></i>
+                                                    </span>
+                                                </th>
+                                                <th class="py-3">Adet</th>
+                                                <th class="py-3">
+                                                    <span class="d-flex align-items-center">
+                                                        Toplam
+                                                        <i class="fas fa-sort ms-2 text-muted"></i>
+                                                    </span>
+                                                </th>
+                                                <th class="py-3"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr data-product-id="@item.Product.Id">
+                                                    <td class="ps-4">
+                                                        <div class="d-flex align-items-center">
+                                                            @if (!string.IsNullOrEmpty(item.Product.Image))
+                                                            {
+                                                                <div class="rounded-3 border p-2 bg-light">
+                                                                    <img src="@item.Product.Image" class="rounded-2" style="width: 50px; height: 50px; object-fit: cover;" alt="@item.Product.Name">
+                                                                </div>
+                                                            }
+                                                            <div class="ms-3">
+                                                                <h6 class="mb-1">@item.Product.Name</h6>
+                                                                <small class="text-muted">SKU: @item.Product.Id</small>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="fw-semibold">@string.Format(CultureInfo.CurrentCulture, "{0:C}", item.Product.Price)</td>
+                                                    <td>
+                                                        <div class="input-group input-group-sm border rounded-pill overflow-hidden" style="width: 120px;">
+                                                            <button class="btn btn-light border-0 px-3" type="button" onclick="updateQuantity(@item.Product.Id, -1)">
+                                                                <i class="fas fa-minus"></i>
+                                                            </button>
+                                                            <input type="text" class="form-control border-0 text-center bg-white" value="@item.Quantity" readonly>
+                                                            <button class="btn btn-light border-0 px-3" type="button" onclick="updateQuantity(@item.Product.Id, 1)">
+                                                                <i class="fas fa-plus"></i>
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                    <td class="item-total fw-bold">@string.Format(CultureInfo.CurrentCulture, "{0:C}", item.Product.Price * item.Quantity)</td>
+                                                    <td>
+                                                        <button onclick="location.href='@Url.Action("Remove", "Card", new { id = item.Product.Id })'" 
+                                                                class="btn btn-link text-danger p-0" 
+                                                                data-bs-toggle="tooltip" 
+                                                                data-bs-placement="top" 
+                                                                title="Ürünü Sil">
+                                                            <i class="fas fa-trash-alt"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="p-3 bg-light border-top">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="text-muted">
+                                            1 - @Model.Count() arası, toplam @Model.Count() ürün
+                                        </div>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-light" disabled>
+                                                <i class="fas fa-chevron-left"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-primary px-3">1</button>
+                                            <button type="button" class="btn btn-light" disabled>
+                                                <i class="fas fa-chevron-right"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                @if (Model != null && Model.Any())
+                {
+                    <div class="col-lg-4">
+                        <div class="card shadow border-0 rounded-4 position-sticky" style="top: 2rem;">
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-4">Sipariş Özeti</h5>
+                                <div class="d-flex justify-content-between mb-3">
+                                    <span class="text-muted">Ara Toplam</span>
+                                    <span class="fw-semibold total-price">@ViewBag.Total</span>
+                                </div>
+                                <div class="d-flex justify-content-between mb-3">
+                                    <span class="text-muted">Kargo</span>
+                                    <span class="badge bg-success rounded-pill">Ücretsiz</span>
+                                </div>
+                                <hr class="my-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <strong>Toplam</strong>
+                                    <strong class="text-primary fs-5 total-price">@ViewBag.Total</strong>
+                                </div>
+                                <a asp-action="CheckOut" asp-controller="Card" class="btn btn-primary w-100 rounded-pill mb-3 py-2">
+                                    <i class="fas fa-lock me-2"></i>Alışverişi Tamamla
+                                </a>
+                                <a asp-action="List" asp-controller="Home" class="btn btn-outline-secondary w-100 rounded-pill py-2">
+                                    <i class="fas fa-arrow-left me-2"></i>Alışverişe Devam Et
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function updateQuantity(productId, change) {
+            $.ajax({
+                url: '@Url.Action("UpdateQuantity", "Card")',
+                type: 'POST',
+                data: { id: productId, change: change },
+                success: function(response) {
+                    if (response.success) {
+                        if (response.removed) {
+                            // Ürün tamamen kaldırıldıysa satırı sil
+                            $(`tr[data-product-id="${productId}"]`).fadeOut(300, function() {
+                                $(this).remove();
+                                updateCartCount(response.cartCount);
+                                updateTotalPrice(response.total);
+                                
+                                // Eğer sepette ürün kalmadıysa sayfayı yenile
+                                if (response.cartCount === 0) {
+                                    location.reload();
+                                }
+                            });
+                        } else {
+                            // Miktar ve fiyatları güncelle
+                            $(`tr[data-product-id="${productId}"] input[type="text"]`).val(response.quantity);
+                            $(`tr[data-product-id="${productId}"] .item-total`).text(response.itemTotal);
+                            updateCartCount(response.cartCount);
+                            updateTotalPrice(response.total);
+                        }
+                    } else {
+                        showNotification('Güncelleme işlemi başarısız oldu', 'danger');
+                    }
+                },
+                error: function() {
+                    showNotification('Bir hata oluştu', 'danger');
+                }
+            });
+        }
+
+        function updateCartCount(count) {
+            $('.cart-count').text(count);
+        }
+
+        function updateTotalPrice(total) {
+            $('.total-price').text(total);
+        }
+
+        function showNotification(message, type) {
+            var notification = $('<div>', {
+                class: `alert alert-${type} position-fixed`,
+                text: message
+            }).css({
+                top: '20px',
+                right: '20px',
+                zIndex: 1000
+            });
+
+            $('body').append(notification);
+
+            setTimeout(function() {
+                notification.fadeOut(300, function() {
+                    $(this).remove();
+                });
+            }, 2000);
+        }
+
+        // Tooltip'leri aktifleştir
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        });
+    </script>
+}
+
+
+
+
+
